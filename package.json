@@ -1,0 +1,32 @@
+{
+  "name": "libtrust",
+  "version": "1.0.0",
+  "description": "Javascript implementation of docker's libtrust",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tswayne/js-libtrust.git"
+  },
+  "keywords": [
+    "node",
+    "docker",
+    "registry"
+  ],
+  "author": "Tyler Swayne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tswayne/js-libtrust/issues"
+  },
+  "homepage": "https://github.com/tswayne/js-libtrust#readme",
+  "dependencies": {
+    "base32-encode": "^1.1.1",
+    "node-forge": "^0.10.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "chai": "^4.2.0"
+  }
+}
